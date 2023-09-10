@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: linear-gradient(#7a8ab7,rgb(100, 128, 211));
+    opacity: 86%;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: azure;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+.img{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(34, 55, 137);
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+nav li a:hover{
+    color: rgb(74, 74, 175);
+    transition: all 0.4s ease 0s;
+    
+}
+.first{
+    padding: 250px 0;
+    text-align: center;
+    background-image: url(https://dailygazette.com/wp-content/uploads/2021/05/0502_dining_at_home.jpg);
+    background-size: cover;
+    
+}
+.first h2{
+    font-size: 45px;
+    color: rgb(255, 75, 30);
+}
+.first p{
+    color: rgb(17, 0, 255);
+}
+.second{
+    padding: 250px 0;
+    text-align: center;
+    background-image: url(https://media.istockphoto.com/photos/the-team-of-cooks-backs-in-the-work-in-the-modern-kitchen-the-of-the-picture-id1162911786?k=6&m=1162911786&s=612x612&w=0&h=2d43gr7q_uTc_81GBkZy-yhl4jwM33apitUuzK-_e8w=);
+    background-size: cover;
+}
+.second h2{
+    font-size: 45px;
+    color: magenta;
+
+}
+.second p{
+    color: azure;
+}
+.third{
+    padding: 250px 0;
+    text-align: center;
+    background-image: url(https://wallpapercave.com/wp/wp3104899.jpg);
+    background-size: cover;
+
+}
+.third h2{
+    font-size: 45px;
+    color: magenta;
+    
+
+}
+.third li{
+    color: cornflowerblue;
+}
+.fourth{
+    padding: 70pxpx 0;
+    text-align: center;
+    background-color: rgb(78, 120, 162);
+
+    
+
+}
+.fourth h2{
+    font-size: 45px;
+    color: white;
+    padding: 10px;
+    
+
+}
+.fourth p{
+    color: white;
+    padding: 10px;
+}
+.back{
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.container{
+    height: 400px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding: 10px;
+}
+.footer{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.footer~div{
+    margin-bottom: 12px;
+}
